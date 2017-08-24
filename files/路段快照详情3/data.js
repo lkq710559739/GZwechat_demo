@@ -1,0 +1,208 @@
+﻿$axure.loadCurrentPage({
+  "url":"路段快照详情3.html",
+  "generationDate":new Date(1503556106842.14),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"page"],
+  "page":{
+    "packageId":"279b648379924d9aa9926e9e722cd017",
+    "type":"Axure:Page",
+    "name":"路段快照详情3",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"a529689e4a654583adc2cc86bcc3778b",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":667}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0cfd1a8f7491456e8d85131fa7aec45d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":667}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/路段快照详情/u0.png"}},
+{
+          "id":"0f06a5fc39714fc9b9f035306477ed83",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0x333333,
+              "opacity":0},
+            "opacity":"0",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":-10,
+              "y":20},
+            "size":{
+              "width":90,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0x797979}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"13a82e71436e4a9180bfdaf3ce3d191a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0x333333,
+                  "opacity":0},
+                "opacity":"0",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":-10,
+                  "y":20},
+                "size":{
+                  "width":90,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0x797979}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 值于 page = &quot;2&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"page"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"2",
+                                "stos":[]}]}]}},
+{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 道路查询—展示",
+                      "target":{
+                        "targetType":"page",
+                        "url":"道路查询—展示.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"b26ab0f507b94b1fb88ea93d201eab6f",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF000000,
+              "opacity":1},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF},
+            "location":{
+              "x":440,
+              "y":272},
+            "size":{
+              "width":340,
+              "height":70}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"942e33f8926648409dd7c4992fa5b841",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF},
+                "location":{
+                  "x":440,
+                  "y":272},
+                "size":{
+                  "width":340,
+                  "height":70}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/路段快照详情3/u4.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "a529689e4a654583adc2cc86bcc3778b":{
+      "scriptId":"u0"},
+    "0cfd1a8f7491456e8d85131fa7aec45d":{
+      "scriptId":"u1"},
+    "0f06a5fc39714fc9b9f035306477ed83":{
+      "scriptId":"u2"},
+    "13a82e71436e4a9180bfdaf3ce3d191a":{
+      "scriptId":"u3"},
+    "b26ab0f507b94b1fb88ea93d201eab6f":{
+      "scriptId":"u4"},
+    "942e33f8926648409dd7c4992fa5b841":{
+      "scriptId":"u5"}}});

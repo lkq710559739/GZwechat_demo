@@ -1,0 +1,140 @@
+﻿$axure.loadCurrentPage({
+  "url":"违章办理详情.html",
+  "generationDate":new Date(1503556108485.23),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"page"],
+  "page":{
+    "packageId":"7abb8fdb41814841a433d739091f217d",
+    "type":"Axure:Page",
+    "name":"违章办理详情",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"369be7f868e44e03a7197522ae5bc331",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":667}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e9e7a2da3c74459780d8d46bcf443f81",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":667}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/违章办理详情/u0.png"}},
+{
+          "id":"6d30622c1b034b968b3dd80e4773d063",
+          "label":"返回",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0x333333,
+              "opacity":0},
+            "opacity":"0",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":20},
+            "size":{
+              "width":70,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0x797979}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"66052cf2ee85425d80e27fb5838512f3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0x333333,
+                  "opacity":0},
+                "opacity":"0",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":20},
+                "size":{
+                  "width":70,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0x797979}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 业务办理进度",
+                      "target":{
+                        "targetType":"page",
+                        "url":"业务办理进度.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "369be7f868e44e03a7197522ae5bc331":{
+      "scriptId":"u0"},
+    "e9e7a2da3c74459780d8d46bcf443f81":{
+      "scriptId":"u1"},
+    "6d30622c1b034b968b3dd80e4773d063":{
+      "scriptId":"u2"},
+    "66052cf2ee85425d80e27fb5838512f3":{
+      "scriptId":"u3"}}});

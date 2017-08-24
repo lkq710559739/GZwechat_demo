@@ -1,0 +1,140 @@
+﻿$axure.loadCurrentPage({
+  "url":"定损详情.html",
+  "generationDate":new Date(1503556107973.21),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"page"],
+  "page":{
+    "packageId":"adef7cb8623348d4bb56482318b9c0c0",
+    "type":"Axure:Page",
+    "name":"定损详情",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"9cc5167eb47e4da8b8ff5e3b947b7275",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":667}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"171351ed9cc342eaad0f003148f4a85b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":667}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/定损详情/u0.png"}},
+{
+          "id":"db3c713bf0fc48ad86aee56279e2dde3",
+          "label":"返回",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0x333333,
+              "opacity":0},
+            "opacity":"0",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":19.9999980926514},
+            "size":{
+              "width":50,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0x797979}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e7006dfb38c54d32b139d28d4aab01c7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0x333333,
+                  "opacity":0},
+                "opacity":"0",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":19.9999980926514},
+                "size":{
+                  "width":50,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0x797979}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 进度反馈",
+                      "target":{
+                        "targetType":"page",
+                        "url":"进度反馈.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "9cc5167eb47e4da8b8ff5e3b947b7275":{
+      "scriptId":"u0"},
+    "171351ed9cc342eaad0f003148f4a85b":{
+      "scriptId":"u1"},
+    "db3c713bf0fc48ad86aee56279e2dde3":{
+      "scriptId":"u2"},
+    "e7006dfb38c54d32b139d28d4aab01c7":{
+      "scriptId":"u3"}}});

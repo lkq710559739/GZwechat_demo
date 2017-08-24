@@ -1,0 +1,336 @@
+﻿$axure.loadCurrentPage({
+  "url":"上报.html",
+  "generationDate":new Date(1503556106950.15),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"page"],
+  "page":{
+    "packageId":"9891e87bc5ae4ab880f833225b24982b",
+    "type":"Axure:Page",
+    "name":"上报",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"0c69714177264b309ab3044522b89728",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":667}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ad77b05aeca443c6a6f20fe72237b719",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":667}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/上报/u0.png"}},
+{
+          "id":"8f87d0f10ab44119b48cc995cce977ed",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软 Regular', '微软'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFCEE0EA,
+              "opacity":1},
+            "opacity":"0",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":24},
+            "size":{
+              "width":70,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c8b0d60e9eb146e295ac9c8f70398454",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软 Regular', '微软'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCEE0EA,
+                  "opacity":1},
+                "opacity":"0",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":24},
+                "size":{
+                  "width":70,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 信息发布",
+                      "target":{
+                        "targetType":"page",
+                        "url":"信息发布.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"9d4ec7669d12461e89e95d0a1ee225fd",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软 Regular', '微软'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFCEE0EA,
+              "opacity":1},
+            "opacity":"0",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":509.999969482422},
+            "size":{
+              "width":360,
+              "height":60},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ea4ad444549a453bad0a919ba3a6ff87",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软 Regular', '微软'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCEE0EA,
+                  "opacity":1},
+                "opacity":"0",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":509.999969482422},
+                "size":{
+                  "width":360,
+                  "height":60},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 上报成功,<br>我知道了",
+                      "objectsToFades":[{
+                          "objectPath":["8416e45757c14fbdb91e41afc2f4d2e4"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["94e29336786f4ab98f59831746db64e1"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"8416e45757c14fbdb91e41afc2f4d2e4",
+          "label":"上报成功",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":667},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2bdfa88808a647268b05b49557b35af3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":667},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/上报/上报成功_u6.png"}},
+{
+          "id":"94e29336786f4ab98f59831746db64e1",
+          "label":"我知道了",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软 Regular', '微软'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFCEE0EA,
+              "opacity":1},
+            "opacity":"0",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":25,
+              "y":330},
+            "size":{
+              "width":320,
+              "height":60},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"97eb957fbd984f6cb21c2f8c0cd1771f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软 Regular', '微软'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCEE0EA,
+                  "opacity":1},
+                "opacity":"0",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":25,
+                  "y":330},
+                "size":{
+                  "width":320,
+                  "height":60},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 信息发布",
+                      "target":{
+                        "targetType":"page",
+                        "url":"信息发布.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "0c69714177264b309ab3044522b89728":{
+      "scriptId":"u0"},
+    "ad77b05aeca443c6a6f20fe72237b719":{
+      "scriptId":"u1"},
+    "8f87d0f10ab44119b48cc995cce977ed":{
+      "scriptId":"u2"},
+    "c8b0d60e9eb146e295ac9c8f70398454":{
+      "scriptId":"u3"},
+    "9d4ec7669d12461e89e95d0a1ee225fd":{
+      "scriptId":"u4"},
+    "ea4ad444549a453bad0a919ba3a6ff87":{
+      "scriptId":"u5"},
+    "8416e45757c14fbdb91e41afc2f4d2e4":{
+      "scriptId":"u6"},
+    "2bdfa88808a647268b05b49557b35af3":{
+      "scriptId":"u7"},
+    "94e29336786f4ab98f59831746db64e1":{
+      "scriptId":"u8"},
+    "97eb957fbd984f6cb21c2f8c0cd1771f":{
+      "scriptId":"u9"}}});
